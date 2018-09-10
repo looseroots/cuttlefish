@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64530A26212DF70F00F284F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A25212DF70F00F284F5 /* AppDelegate.swift */; };
+		64530A28212DF70F00F284F5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A27212DF70F00F284F5 /* TabBarController.swift */; };
+		64530A2B212DF70F00F284F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64530A29212DF70F00F284F5 /* Main.storyboard */; };
+		64530A2E212DF70F00F284F5 /* Conova.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64530A2C212DF70F00F284F5 /* Conova.xcdatamodeld */; };
+		64530A30212DF71200F284F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64530A2F212DF71200F284F5 /* Assets.xcassets */; };
+		64530A33212DF71200F284F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64530A31212DF71200F284F5 /* LaunchScreen.storyboard */; };
+		64530A3E212DF71200F284F5 /* ConovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A3D212DF71200F284F5 /* ConovaTests.swift */; };
+		64530A49212DF71200F284F5 /* ConovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A48212DF71200F284F5 /* ConovaUITests.swift */; };
+		64530A57212DF81100F284F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A56212DF81100F284F5 /* HomeViewController.swift */; };
+		64530A5F212DF94300F284F5 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A5E212DF94300F284F5 /* HomeNavigationController.swift */; };
+		64530A67212E774600F284F5 /* NavigationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A66212E774600F284F5 /* NavigationCollectionViewCell.swift */; };
+		64530A69212E77BA00F284F5 /* HomeNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A68212E77BA00F284F5 /* HomeNavigationViewModel.swift */; };
+		64530A6B212E876300F284F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A6A212E876300F284F5 /* Constants.swift */; };
+		64530A6D212F189700F284F5 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A6C212F189700F284F5 /* FeedCollectionViewCell.swift */; };
+		64530A70212F491B00F284F5 /* FeedOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A6F212F491B00F284F5 /* FeedOptionsView.swift */; };
+		64530A732130770F00F284F5 /* PreferenceNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A722130770F00F284F5 /* PreferenceNavigationController.swift */; };
+		64530A7721307BFE00F284F5 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A7621307BFE00F284F5 /* PreferenceViewController.swift */; };
+		64530AB62130B8F500F284F5 /* PreferenceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530AB52130B8F500F284F5 /* PreferenceCardView.swift */; };
+		64E37054214359EA0014CE6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E37053214359EA0014CE6C /* SignUpViewController.swift */; };
+		64E3705621435A0B0014CE6C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3705521435A0B0014CE6C /* LogInViewController.swift */; };
+		64FD01C62132049800366B89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01C52132049800366B89 /* ProfileViewController.swift */; };
+		64FD01C92132061200366B89 /* SingleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01C82132061200366B89 /* SingleImageCollectionViewCell.swift */; };
+		64FD01CB2132069100366B89 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01CA2132069100366B89 /* TextCollectionViewCell.swift */; };
+		64FD01CD213206AE00366B89 /* DividerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01CC213206AE00366B89 /* DividerCollectionViewCell.swift */; };
+		64FD01CF213206CF00366B89 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01CE213206CF00366B89 /* EventCollectionViewCell.swift */; };
+		64FD01D12132074400366B89 /* SingleImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01D02132074400366B89 /* SingleImageCellViewModel.swift */; };
+		64FD01D32132074B00366B89 /* TextCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01D22132074B00366B89 /* TextCellViewModel.swift */; };
+		64FD01D72132076800366B89 /* EventCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01D62132076800366B89 /* EventCellViewModel.swift */; };
+		64FD01D9213209BE00366B89 /* UIImageView+Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01D8213209BE00366B89 /* UIImageView+Resources.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64530A3A212DF71200F284F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64530A1A212DF70F00F284F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64530A21212DF70F00F284F5;
+			remoteInfo = Conova;
+		};
+		64530A45212DF71200F284F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64530A1A212DF70F00F284F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64530A21212DF70F00F284F5;
+			remoteInfo = Conova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64530A22212DF70F00F284F5 /* Conova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64530A25212DF70F00F284F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64530A27212DF70F00F284F5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		64530A2A212DF70F00F284F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64530A2D212DF70F00F284F5 /* Conova.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conova.xcdatamodel; sourceTree = "<group>"; };
+		64530A2F212DF71200F284F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64530A32212DF71200F284F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64530A34212DF71200F284F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64530A39212DF71200F284F5 /* ConovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64530A3D212DF71200F284F5 /* ConovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConovaTests.swift; sourceTree = "<group>"; };
+		64530A3F212DF71200F284F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64530A44212DF71200F284F5 /* ConovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64530A48212DF71200F284F5 /* ConovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConovaUITests.swift; sourceTree = "<group>"; };
+		64530A4A212DF71200F284F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64530A56212DF81100F284F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		64530A5E212DF94300F284F5 /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		64530A66212E774600F284F5 /* NavigationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCollectionViewCell.swift; sourceTree = "<group>"; };
+		64530A68212E77BA00F284F5 /* HomeNavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationViewModel.swift; sourceTree = "<group>"; };
+		64530A6A212E876300F284F5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		64530A6C212F189700F284F5 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		64530A6F212F491B00F284F5 /* FeedOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedOptionsView.swift; sourceTree = "<group>"; };
+		64530A722130770F00F284F5 /* PreferenceNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceNavigationController.swift; sourceTree = "<group>"; };
+		64530A7621307BFE00F284F5 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
+		64530AB52130B8F500F284F5 /* PreferenceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceCardView.swift; sourceTree = "<group>"; };
+		64E37053214359EA0014CE6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		64E3705521435A0B0014CE6C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		64FD01C52132049800366B89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		64FD01C82132061200366B89 /* SingleImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		64FD01CA2132069100366B89 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		64FD01CC213206AE00366B89 /* DividerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCollectionViewCell.swift; sourceTree = "<group>"; };
+		64FD01CE213206CF00366B89 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		64FD01D02132074400366B89 /* SingleImageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageCellViewModel.swift; sourceTree = "<group>"; };
+		64FD01D22132074B00366B89 /* TextCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellViewModel.swift; sourceTree = "<group>"; };
+		64FD01D62132076800366B89 /* EventCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellViewModel.swift; sourceTree = "<group>"; };
+		64FD01D8213209BE00366B89 /* UIImageView+Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Resources.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64530A1F212DF70F00F284F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64530A36212DF71200F284F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64530A41212DF71200F284F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64530A19212DF70F00F284F5 = {
+			isa = PBXGroup;
+			children = (
+				64530A24212DF70F00F284F5 /* Conova */,
+				64530A3C212DF71200F284F5 /* ConovaTests */,
+				64530A47212DF71200F284F5 /* ConovaUITests */,
+				64530A23212DF70F00F284F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64530A23212DF70F00F284F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64530A22212DF70F00F284F5 /* Conova.app */,
+				64530A39212DF71200F284F5 /* ConovaTests.xctest */,
+				64530A44212DF71200F284F5 /* ConovaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64530A24212DF70F00F284F5 /* Conova */ = {
+			isa = PBXGroup;
+			children = (
+				64E37052214359D50014CE6C /* OnboardingFlow */,
+				64FD01C7213205FD00366B89 /* Cells */,
+				64FD01D8213209BE00366B89 /* UIImageView+Resources.swift */,
+				64530A6A212E876300F284F5 /* Constants.swift */,
+				64530A27212DF70F00F284F5 /* TabBarController.swift */,
+				64530A59212DF82800F284F5 /* HomeTab */,
+				64530A71213076E400F284F5 /* PreferenceTab */,
+				64FD01C42132047700366B89 /* ProfileView */,
+				64530A25212DF70F00F284F5 /* AppDelegate.swift */,
+				64530A29212DF70F00F284F5 /* Main.storyboard */,
+				64530A2F212DF71200F284F5 /* Assets.xcassets */,
+				64530A31212DF71200F284F5 /* LaunchScreen.storyboard */,
+				64530A34212DF71200F284F5 /* Info.plist */,
+				64530A2C212DF70F00F284F5 /* Conova.xcdatamodeld */,
+			);
+			path = Conova;
+			sourceTree = "<group>";
+		};
+		64530A3C212DF71200F284F5 /* ConovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				64530A3D212DF71200F284F5 /* ConovaTests.swift */,
+				64530A3F212DF71200F284F5 /* Info.plist */,
+			);
+			path = ConovaTests;
+			sourceTree = "<group>";
+		};
+		64530A47212DF71200F284F5 /* ConovaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64530A48212DF71200F284F5 /* ConovaUITests.swift */,
+				64530A4A212DF71200F284F5 /* Info.plist */,
+			);
+			path = ConovaUITests;
+			sourceTree = "<group>";
+		};
+		64530A59212DF82800F284F5 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				64530A6E212F2EBD00F284F5 /* Shared */,
+				64530A65212E773400F284F5 /* NavigationController */,
+				64530A61212E76E300F284F5 /* HomeFeed */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		64530A61212E76E300F284F5 /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				64530A56212DF81100F284F5 /* HomeViewController.swift */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		64530A65212E773400F284F5 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				64530A5E212DF94300F284F5 /* HomeNavigationController.swift */,
+				64530A66212E774600F284F5 /* NavigationCollectionViewCell.swift */,
+				64530A68212E77BA00F284F5 /* HomeNavigationViewModel.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		64530A6E212F2EBD00F284F5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				64530A6C212F189700F284F5 /* FeedCollectionViewCell.swift */,
+				64530A6F212F491B00F284F5 /* FeedOptionsView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		64530A71213076E400F284F5 /* PreferenceTab */ = {
+			isa = PBXGroup;
+			children = (
+				64530A7421307BD400F284F5 /* NavigationController */,
+				64530A7521307BEB00F284F5 /* ViewControllers */,
+				64530AB52130B8F500F284F5 /* PreferenceCardView.swift */,
+			);
+			path = PreferenceTab;
+			sourceTree = "<group>";
+		};
+		64530A7421307BD400F284F5 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				64530A722130770F00F284F5 /* PreferenceNavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		64530A7521307BEB00F284F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64530A7621307BFE00F284F5 /* PreferenceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64E37052214359D50014CE6C /* OnboardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				64E37053214359EA0014CE6C /* SignUpViewController.swift */,
+				64E3705521435A0B0014CE6C /* LogInViewController.swift */,
+			);
+			path = OnboardingFlow;
+			sourceTree = "<group>";
+		};
+		64FD01C42132047700366B89 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				64FD01C52132049800366B89 /* ProfileViewController.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		64FD01C7213205FD00366B89 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				64FD01C82132061200366B89 /* SingleImageCollectionViewCell.swift */,
+				64FD01D02132074400366B89 /* SingleImageCellViewModel.swift */,
+				64FD01CA2132069100366B89 /* TextCollectionViewCell.swift */,
+				64FD01D22132074B00366B89 /* TextCellViewModel.swift */,
+				64FD01CC213206AE00366B89 /* DividerCollectionViewCell.swift */,
+				64FD01CE213206CF00366B89 /* EventCollectionViewCell.swift */,
+				64FD01D62132076800366B89 /* EventCellViewModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64530A21212DF70F00F284F5 /* Conova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64530A4D212DF71200F284F5 /* Build configuration list for PBXNativeTarget "Conova" */;
+			buildPhases = (
+				64530A1E212DF70F00F284F5 /* Sources */,
+				64530A1F212DF70F00F284F5 /* Frameworks */,
+				64530A20212DF70F00F284F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conova;
+			productName = Conova;
+			productReference = 64530A22212DF70F00F284F5 /* Conova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64530A38212DF71200F284F5 /* ConovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64530A50212DF71200F284F5 /* Build configuration list for PBXNativeTarget "ConovaTests" */;
+			buildPhases = (
+				64530A35212DF71200F284F5 /* Sources */,
+				64530A36212DF71200F284F5 /* Frameworks */,
+				64530A37212DF71200F284F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64530A3B212DF71200F284F5 /* PBXTargetDependency */,
+			);
+			name = ConovaTests;
+			productName = ConovaTests;
+			productReference = 64530A39212DF71200F284F5 /* ConovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64530A43212DF71200F284F5 /* ConovaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64530A53212DF71200F284F5 /* Build configuration list for PBXNativeTarget "ConovaUITests" */;
+			buildPhases = (
+				64530A40212DF71200F284F5 /* Sources */,
+				64530A41212DF71200F284F5 /* Frameworks */,
+				64530A42212DF71200F284F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64530A46212DF71200F284F5 /* PBXTargetDependency */,
+			);
+			name = ConovaUITests;
+			productName = ConovaUITests;
+			productReference = 64530A44212DF71200F284F5 /* ConovaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64530A1A212DF70F00F284F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Conova;
+				TargetAttributes = {
+					64530A21212DF70F00F284F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					64530A38212DF71200F284F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64530A21212DF70F00F284F5;
+					};
+					64530A43212DF71200F284F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64530A21212DF70F00F284F5;
+					};
+				};
+			};
+			buildConfigurationList = 64530A1D212DF70F00F284F5 /* Build configuration list for PBXProject "Conova" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64530A19212DF70F00F284F5;
+			productRefGroup = 64530A23212DF70F00F284F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64530A21212DF70F00F284F5 /* Conova */,
+				64530A38212DF71200F284F5 /* ConovaTests */,
+				64530A43212DF71200F284F5 /* ConovaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64530A20212DF70F00F284F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64530A33212DF71200F284F5 /* LaunchScreen.storyboard in Resources */,
+				64530A30212DF71200F284F5 /* Assets.xcassets in Resources */,
+				64530A2B212DF70F00F284F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64530A37212DF71200F284F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64530A42212DF71200F284F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64530A1E212DF70F00F284F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FD01D9213209BE00366B89 /* UIImageView+Resources.swift in Sources */,
+				64FD01D72132076800366B89 /* EventCellViewModel.swift in Sources */,
+				64FD01CF213206CF00366B89 /* EventCollectionViewCell.swift in Sources */,
+				64530A28212DF70F00F284F5 /* TabBarController.swift in Sources */,
+				64530AB62130B8F500F284F5 /* PreferenceCardView.swift in Sources */,
+				64FD01C92132061200366B89 /* SingleImageCollectionViewCell.swift in Sources */,
+				64E37054214359EA0014CE6C /* SignUpViewController.swift in Sources */,
+				64530A6D212F189700F284F5 /* FeedCollectionViewCell.swift in Sources */,
+				64530A69212E77BA00F284F5 /* HomeNavigationViewModel.swift in Sources */,
+				64FD01D32132074B00366B89 /* TextCellViewModel.swift in Sources */,
+				64FD01D12132074400366B89 /* SingleImageCellViewModel.swift in Sources */,
+				64530A2E212DF70F00F284F5 /* Conova.xcdatamodeld in Sources */,
+				64FD01CB2132069100366B89 /* TextCollectionViewCell.swift in Sources */,
+				64FD01C62132049800366B89 /* ProfileViewController.swift in Sources */,
+				64530A7721307BFE00F284F5 /* PreferenceViewController.swift in Sources */,
+				64530A5F212DF94300F284F5 /* HomeNavigationController.swift in Sources */,
+				64530A6B212E876300F284F5 /* Constants.swift in Sources */,
+				64530A70212F491B00F284F5 /* FeedOptionsView.swift in Sources */,
+				64530A67212E774600F284F5 /* NavigationCollectionViewCell.swift in Sources */,
+				64530A26212DF70F00F284F5 /* AppDelegate.swift in Sources */,
+				64E3705621435A0B0014CE6C /* LogInViewController.swift in Sources */,
+				64FD01CD213206AE00366B89 /* DividerCollectionViewCell.swift in Sources */,
+				64530A57212DF81100F284F5 /* HomeViewController.swift in Sources */,
+				64530A732130770F00F284F5 /* PreferenceNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64530A35212DF71200F284F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64530A3E212DF71200F284F5 /* ConovaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64530A40212DF71200F284F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64530A49212DF71200F284F5 /* ConovaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64530A3B212DF71200F284F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64530A21212DF70F00F284F5 /* Conova */;
+			targetProxy = 64530A3A212DF71200F284F5 /* PBXContainerItemProxy */;
+		};
+		64530A46212DF71200F284F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64530A21212DF70F00F284F5 /* Conova */;
+			targetProxy = 64530A45212DF71200F284F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64530A29212DF70F00F284F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64530A2A212DF70F00F284F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64530A31212DF71200F284F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64530A32212DF71200F284F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64530A4B212DF71200F284F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64530A4C212DF71200F284F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64530A4E212DF71200F284F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				INFOPLIST_FILE = Conova/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LooseRoots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64530A4F212DF71200F284F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				INFOPLIST_FILE = Conova/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LooseRoots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64530A51212DF71200F284F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				INFOPLIST_FILE = ConovaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conova.app/Conova";
+			};
+			name = Debug;
+		};
+		64530A52212DF71200F284F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				INFOPLIST_FILE = ConovaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conova.app/Conova";
+			};
+			name = Release;
+		};
+		64530A54212DF71200F284F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				INFOPLIST_FILE = ConovaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Conova;
+			};
+			name = Debug;
+		};
+		64530A55212DF71200F284F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A35BTEKDJ3;
+				INFOPLIST_FILE = ConovaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Conova;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64530A1D212DF70F00F284F5 /* Build configuration list for PBXProject "Conova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64530A4B212DF71200F284F5 /* Debug */,
+				64530A4C212DF71200F284F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64530A4D212DF71200F284F5 /* Build configuration list for PBXNativeTarget "Conova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64530A4E212DF71200F284F5 /* Debug */,
+				64530A4F212DF71200F284F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64530A50212DF71200F284F5 /* Build configuration list for PBXNativeTarget "ConovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64530A51212DF71200F284F5 /* Debug */,
+				64530A52212DF71200F284F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64530A53212DF71200F284F5 /* Build configuration list for PBXNativeTarget "ConovaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64530A54212DF71200F284F5 /* Debug */,
+				64530A55212DF71200F284F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64530A2C212DF70F00F284F5 /* Conova.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64530A2D212DF70F00F284F5 /* Conova.xcdatamodel */,
+			);
+			currentVersion = 64530A2D212DF70F00F284F5 /* Conova.xcdatamodel */;
+			path = Conova.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64530A1A212DF70F00F284F5 /* Project object */;
+}
