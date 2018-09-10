@@ -25,6 +25,7 @@
 		64530A732130770F00F284F5 /* PreferenceNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A722130770F00F284F5 /* PreferenceNavigationController.swift */; };
 		64530A7721307BFE00F284F5 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530A7621307BFE00F284F5 /* PreferenceViewController.swift */; };
 		64530AB62130B8F500F284F5 /* PreferenceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64530AB52130B8F500F284F5 /* PreferenceCardView.swift */; };
+		6461173E214644F000BD31AF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461173D214644F000BD31AF /* UserManager.swift */; };
 		64E37054214359EA0014CE6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E37053214359EA0014CE6C /* SignUpViewController.swift */; };
 		64E3705621435A0B0014CE6C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3705521435A0B0014CE6C /* LogInViewController.swift */; };
 		64FD01C62132049800366B89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD01C52132049800366B89 /* ProfileViewController.swift */; };
@@ -80,6 +81,7 @@
 		64530A722130770F00F284F5 /* PreferenceNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceNavigationController.swift; sourceTree = "<group>"; };
 		64530A7621307BFE00F284F5 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
 		64530AB52130B8F500F284F5 /* PreferenceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceCardView.swift; sourceTree = "<group>"; };
+		6461173D214644F000BD31AF /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		64E37053214359EA0014CE6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		64E3705521435A0B0014CE6C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		64FD01C52132049800366B89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				64530A31212DF71200F284F5 /* LaunchScreen.storyboard */,
 				64530A34212DF71200F284F5 /* Info.plist */,
 				64530A2C212DF70F00F284F5 /* Conova.xcdatamodeld */,
+				6461173D214644F000BD31AF /* UserManager.swift */,
 			);
 			path = Conova;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6461173E214644F000BD31AF /* UserManager.swift in Sources */,
 				64FD01D9213209BE00366B89 /* UIImageView+Resources.swift in Sources */,
 				64FD01D72132076800366B89 /* EventCellViewModel.swift in Sources */,
 				64FD01CF213206CF00366B89 /* EventCollectionViewCell.swift in Sources */,
